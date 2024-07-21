@@ -1,0 +1,3 @@
+default_repo: https://github.com/grayerbeard/localAI  # Replace with your default repo
+output_folder: D:/Obsidian Vaults/Second Brain/notes  # (Optional) Folder for output file
+output_filename: "repoLocalAI.md"  # (Optional) Custom filename
