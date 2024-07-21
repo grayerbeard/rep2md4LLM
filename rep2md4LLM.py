@@ -1,33 +1,5 @@
 '''
-**Explanation and How to Use:**
-
-1. **Create `config.yaml`:**
-   - Create a file named `config.yaml` in the same directory as your Python script.
-   - Add the following content to `config.yaml`, replacing placeholders with your desired values:
-
-     ```yaml
-     default_repo: "https://github.com/username/repository"  # Replace with your default repo
-     output_folder: "output"  # (Optional) Folder for output file
-     output_filename: "repo_docs.md"  # (Optional) Custom filename
-     ```
-
-2. **Run the Script:**
-   - Execute the Python script.
-   - You will be prompted to enter a GitHub repository URL.
-   - If you press Enter without typing a URL, the script will use the `default_repo` from your `config.yaml` file.
-
-3. **Output:**
-   - The script will create a Markdown file (using the filename and folder from `config.yaml` or defaults) containing the content of the specified GitHub repository.
-   - A success message will be printed to the console, indicating the location of the generated Markdown file.
-
-**Key Improvements:**
-
-- **Configuration File:** Uses `config.yaml` to store default values, making the script more configurable.
-- **User Input with Default:** Prompts the user for the repository URL but provides a default from the config file.
-- **Output File Control:** Allows customizing the output folder and filename through `config.yaml`.
-- **Clearer Organization:** Uses `if __name__ == "__main__":` block for better code structure.
-
-Now you have a more flexible and configurable script to convert GitHub repositories to Markdown files for use with LL'''
+*'''
 
 import requests
 from urllib.parse import urlparse
