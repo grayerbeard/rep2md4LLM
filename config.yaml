@@ -1,3 +1,8 @@
-default_repo: https://github.com/grayerbeard/localAI  # Replace with your default repo
-output_folder: D:/Obsidian Vaults/Second Brain/notes  # (Optional) Folder for output file
-output_filename: "repoLocalAI.md"  # (Optional) Custom filename
+default_owner: grayerbeard # Replace with your default owner
+default_repo: localAI  # Replace with your default repo
+default_obsidian_vault_location: D:\Obsidian Vaults\Second Brain
+default_obsidian_folder_for_output: notes  # (Optional) Folder for output file
+default_output_filename: repoAsMD.md  # Replace with your defauly filename
+default_files_to_exclude:  # List of files to exclude from the output
+  - LICENSE
+  - .gitignore
